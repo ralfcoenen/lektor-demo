@@ -1,2 +1,5 @@
 [project]
 name = Demo Projekt
+
+[servers.ghpages]
+target = ghpages+https://ralfcoenen/lektor-demo.git
