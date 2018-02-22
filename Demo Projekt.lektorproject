@@ -2,4 +2,11 @@
 name = Demo Projekt
 
 [servers.ghpages]
+name = github
+default = no
 target = ghpages+https://ralfcoenen/lektor-demo
+
+[servers.rsync]
+name = rsync
+default = yes
+target = rsync://subuthi@regulus.uberspace.de/var/www/virtual/subuthi/lektor.subuthi.de

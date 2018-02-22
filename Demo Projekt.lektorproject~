@@ -1,0 +1,7 @@
+[project]
+name = Demo Projekt
+
+[servers.ghpages]
+target =
+rsync://subuthi@regulus.uberspace.de/var/www/virtual/subuthi/lektor.subuthi.de
+

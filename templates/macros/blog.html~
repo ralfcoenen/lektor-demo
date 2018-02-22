@@ -13,7 +13,7 @@
     {% else %}
       {{ post.author }}
     {% endif %}
-    am {{ post.pub_date }}
+    on {{ post.pub_date }}
   </p>
   {{ post.body }}
   </div>

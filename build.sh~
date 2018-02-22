@@ -1,0 +1,12 @@
+#!/bin/bash
+cwd="$(pwd)"
+buildpath="$(lektor project-info --output-path)"
+echo $buildpath
+lektor build
+cd $buildpath
+git add .
+echo "Bitte geben Sie den Message String ein:"
+read msg
+git commit -am "$msg"
+read -n 1 -s
+cd $cwd
