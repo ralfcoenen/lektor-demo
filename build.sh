@@ -12,3 +12,4 @@ git commit -am "$msg"
 git push origin master
 read -n 1 -s
 cd $cwd
+exit
